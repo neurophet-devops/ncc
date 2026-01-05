@@ -1,7 +1,5 @@
 {
   "name": "neurophet-claude-code-plugins",
-  "version": "1.0.0",
-  "description": "Bundled plugins for Claude Code including Agent SDK development tools, PR review toolkit, and commit workflows",
   "owner": {
     "name": "DevOps",
     "email": "devops@neurophet.com"
@@ -9,14 +7,13 @@
   "plugins": [
     {
       "name": "feature-planner",
+      "source": "./plugins/feature-planner",
       "description": "Creates phase-based feature plans with quality gates and incremental delivery structure. Use when planning features, organizing work, breaking down tasks, creating roadmaps, or structuring development strategy.",
       "version": "1.0.0",
       "author": {
-        "name": "DevOps",
+        "name": "Platform Team",
         "email": "devops@neurophet.com"
-      },
-      "source": "./plugins/feature-planner",
-      "category": "development"
+      }
     }
   ]
 }
