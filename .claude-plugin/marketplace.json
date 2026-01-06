@@ -7,8 +7,8 @@
   "plugins": [
     {
       "name": "feature-planner",
-      "source": "./plugins/feature-planner",
-      "description": "Creates phase-based feature plans with quality gates and incremental delivery structure. Use when planning features, organizing work, breaking down tasks, creating roadmaps, or structuring development strategy.",
+      "source": "./plugins/nccp",
+      "description": "Neurophet Claude Code Plugins",
       "version": "1.0.0",
       "author": {
         "name": "Platform Team"

@@ -1,5 +1,5 @@
 {
-    "name": "feature-planner",
+    "name": "nccp",
     "description": "Creates phase-based feature plans with quality gates and incremental delivery structure. Use when planning features, organizing work, breaking down tasks, creating roadmaps, or structuring development strategy.",
     "version": "1.0.0",
     "author": {
