@@ -9,17 +9,17 @@
                 "$CONTEXT7_API_KEY"
             ]
         },
-        "azure-devops": {
+        "ado": {
             "command": "npx",
             "args": [
                 "-y",
-                "@azure-devops/mcp@latest",
+                "@azure-devops/mcp",
                 "neurophet",
                 "--authentication",
-                "pat"
+                "envvar"
             ],
             "env": {
-                "ADO_PAT": "$AZURE_DEVOPS_PAT"
+                "ADO_MCP_AUTH_TOKEN": "$AZURE_DEVOPS_PAT"
             }
         }
     }
