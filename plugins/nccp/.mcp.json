@@ -19,7 +19,7 @@
                 "pat"
             ],
             "env": {
-                "ADO_PAT": "$ADO_PAT"
+                "ADO_PAT": "$AZURE_DEVOPS_PAT"
             }
         }
     }
