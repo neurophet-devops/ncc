@@ -6,7 +6,7 @@
   },
   "plugins": [
     {
-      "name": "feature-planner",
+      "name": "nccp",
       "source": "./plugins/nccp",
       "description": "Neurophet Claude Code Plugins",
       "version": "1.0.0",
