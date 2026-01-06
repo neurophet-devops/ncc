@@ -6,7 +6,7 @@
                 "-y",
                 "@upstash/context7-mcp",
                 "--api-key",
-                "$CONTEXT7_API_KEY"
+                "${CONTEXT7_API_KEY}"
             ]
         },
         "ado": {
@@ -19,7 +19,7 @@
                 "envvar"
             ],
             "env": {
-                "ADO_MCP_AUTH_TOKEN": "$AZURE_DEVOPS_PAT"
+                "ADO_MCP_AUTH_TOKEN": "${AZURE_DEVOPS_PAT}"
             }
         }
     }
